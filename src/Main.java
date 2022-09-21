@@ -9,7 +9,11 @@ public class Main {
 
         twoSmallest(numbers);
 
+        System.out.println(resolveEquation(4, 5));
+    }
 
+    private static double resolveEquation(double x, double y) {
+        return Math.pow(x, 2) + Math.pow((4 * y / 5 - x), 2);
     }
 
     private static void twoSmallest(int[] numbers) {
